@@ -132,12 +132,20 @@ box-sizing: border-box;
 .target > a {
  text-decoration: none;
 }
-a.connect-1:hover ,a.connect-2:hover, a.connect-3:hover{
+.main a:hover,.main a:focus {
     color: darkblue;
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.main > a .connect-1 {
+.active {
+    color: darkblue;
+    border-bottom: 3px solid blue;
+    height: 40px;
+}
+.active:after {
+    content: "";
+    display: block;
+    border-radius: 2px;
     color: darkblue;
     border-bottom: 3px solid blue;
     height: 40px;
