@@ -237,6 +237,26 @@ font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
 }
+.phone {
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 58px;
+    color: var(--LIGHT-SLATE, #8E8F99);
+/* Small Text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: 0.48px;
+}
+.phone-number {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+flex-shrink: 0;
+}
 .name-container {
     margin-left: 8px;
     margin-top: 4px;
