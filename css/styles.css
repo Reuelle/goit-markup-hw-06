@@ -137,10 +137,8 @@ box-sizing: border-box;
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.active {
+:active {
     color: darkblue;
-    border-bottom: 3px solid blue;
-    height: 40px;
 }
 .active:after {
     content: "";
