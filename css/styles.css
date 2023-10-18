@@ -45,6 +45,7 @@ margin-top: 24px;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     display: block;
+    cursor: pointer;
 }
 .headlist .connect-2 {
     margin-left: 40px;
@@ -59,6 +60,7 @@ margin-top: 24px;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     display: block;
+    cursor: pointer;
 }
 .headlist .connect-3 {
     margin-left: 40px;
@@ -73,6 +75,7 @@ margin-top: 24px;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     display: block;
+    cursor: pointer;
 }
 ul .connect-4 {
     width:  153px;
@@ -86,6 +89,7 @@ ul .connect-4 {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     text-decoration: none;
+    cursor: pointer;
 }
 ul .connect-5 {
     margin-left: 40px;
@@ -100,6 +104,7 @@ ul .connect-5 {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     text-decoration: none;
+    cursor: pointer;
 }
 .webpage a {
 text-decoration: none;
@@ -120,6 +125,7 @@ margin-top: 25px;
 display: block;
 position: absolute;
 box-sizing: border-box;
+cursor: pointer;
 }
 .main > .contact {
     width: 261px;
@@ -204,6 +210,7 @@ border-radius: 4px;
     color: #2E2F42;
     flex-shrink: 0;
     margin-bottom: 3px;
+    cursor: pointer;
     
 }
 .modalhead {
@@ -223,7 +230,7 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
-.name {
+.fname {
     width: 34px;
     height: 14px;
     margin-left: 8px;
@@ -407,9 +414,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
-}
-.button .submit:focus {
-    cursor: cell;
+    cursor: pointer;
 }
 
 
@@ -473,6 +478,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 margin-left: 636px;
 margin-top: 48px;
 border: none;
+cursor: pointer;
 }
 .goal {
 display: flex;
@@ -995,6 +1001,7 @@ margin-bottom: 19px;
         font-weight: 500;
         line-height: 24px; /* 150% */
         letter-spacing: 0.64px;
+        cursor: pointer;
     }
     
     .box-first:hover {
@@ -1026,6 +1033,7 @@ background: var(--CLOUD, #F4F4FD);
         font-weight: 500;
         line-height: 24px; /* 150% */
         letter-spacing: 0.64px;
+        cursor: pointer;
     }
     .box-third {
         margin-left: 24px;
@@ -1050,6 +1058,7 @@ background: var(--CLOUD, #F4F4FD);
         font-weight: 500;
         line-height: 24px; /* 150% */
         letter-spacing: 0.64px;;
+        cursor: pointer;
     }
     .box-fourth {
         box-sizing: border-box;
@@ -1074,6 +1083,7 @@ background: var(--CLOUD, #F4F4FD);
         font-weight: 500;
         line-height: 24px; /* 150% */
         letter-spacing: 0.64px;
+        cursor: pointer;
     }
     .box-fifth {
         box-sizing: border-box;
@@ -1098,6 +1108,7 @@ background: var(--CLOUD, #F4F4FD);
         font-weight: 500;
         line-height: 24px; /* 150% */
         letter-spacing: 0.64px;
+        cursor: pointer;
     }
     .Card-first {
         margin-left: 156px;
