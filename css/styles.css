@@ -142,7 +142,7 @@ box-sizing: border-box;
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.active {
+.main a .active {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
