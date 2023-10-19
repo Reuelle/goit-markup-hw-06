@@ -339,7 +339,7 @@ flex-shrink: 0;
 border-radius: 4px;
 border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 }
-.[placeholder="Text input"] {
+textarea::placeholder {
     width: 57px;
     height: 14px;
     margin-top: 8px;
@@ -352,7 +352,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
-background-color: tomato;
 }
 .modal-footer {
     display: flex;
