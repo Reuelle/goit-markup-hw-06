@@ -258,10 +258,10 @@ line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
 }
 input[type="text"]{
-    background-position: 11px 9px, 11px 2px;
+    background-position: 11px 9px, 32px 9px;
     box-sizing: border-box;
     padding: left center, right center;
-    background-image: url(""), url("../images/Line1.svg");
+    background-image: url("../images/person-black-18dp1.svg"), url("../images/Line1.svg");
     margin-top: 4px;
     margin-left: 8px;
     width: 360px;
