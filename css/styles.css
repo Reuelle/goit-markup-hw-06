@@ -258,7 +258,10 @@ line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
 }
 input[type="text"]{
-    background-image: url("../images/person-black-18dp1.png");
+    background-position: 11px 9px, 11px 2px;
+    box-sizing: border-box;
+    padding: left center, right center;
+    background-image: url(""), url("../images/Line1.svg");
     margin-top: 4px;
     margin-left: 8px;
     width: 360px;
@@ -266,7 +269,8 @@ input[type="text"]{
     border-radius: 4px;
 border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 flex-shrink: 0;
-background-repeat: no-repeat;
+background-repeat: no-repeat, no-repeat;
+background-size: 18px 18px, 1.25px 18px;
 }
 .telephone {
     width: 18px;
