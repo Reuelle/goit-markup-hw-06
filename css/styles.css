@@ -942,6 +942,7 @@ position: absolute;
     }
     footer > .container-icon {
         display: flex;
+        background-color: yellow;
     }
     .last p {
     color: var(--CLOUD, #F4F4FD);
@@ -1003,6 +1004,26 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 200% */
 letter-spacing: 0.48px;
+    }
+    .subscribed-button {
+    display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+color: var(--WHITE, #FFF);
+text-align: center;
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+margin-left: 284px;
+margin-bottom: 132px;
     }
     footer > a {
         text-decoration: none;
