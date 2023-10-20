@@ -942,7 +942,7 @@ position: absolute;
     }
     footer > .container-icon {
         display: flex;
-        background-color: yellow;
+        
     }
     .last p {
     color: var(--CLOUD, #F4F4FD);
@@ -995,6 +995,7 @@ flex-shrink: 0;
         background: var(--NAVY-BLUE, #2E2F42);
         flex-shrink: 0;
         padding: 5px 5px 5px 5px;
+        
     }
     input::placeholder {
         color: var(--WHITE, #FFF);
@@ -1022,8 +1023,14 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
-margin-left: 284px;
-margin-bottom: 132px;
+margin-left: 24px;
+box-sizing: border-box;
+margin-bottom: 100px;
+position: absolute;
+background-image: url("../images/airplane3.svg");
+background-repeat: no-repeat;
+background-size: 24px 24px;
+background-position: 19px 9px;
     }
     footer > a {
         text-decoration: none;
