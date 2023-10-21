@@ -15,6 +15,7 @@ height: 72px;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 flex-shrink: 0;
+overflow: hidden;
 }
 .headlist {
     display: flex;
@@ -138,31 +139,22 @@ cursor: pointer;
 .target > a {
  text-decoration: none;
 }
-.main a:hover {
+.contact a:hover  {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.main a:focus {
+.contact a .connect-1 {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.main a .active {
-    color: var(--OCEAN);
-    border-bottom: 3px solid blue;
-    height: 40px;
-}
-.active:after {
+.active::after {
     content: "";
     display: block;
-    height: 4px;
-    width: 100%;
-    border-radius: 2px;
-    background-color: var(--IRIS);
-    position: relative;
-    top: 15px;
-   
+    color: var(--OCEAN);
+    border-bottom: 3px solid blue;
+    height: 40px;
 }
 .contact-info > ul{
     width: 345px;
