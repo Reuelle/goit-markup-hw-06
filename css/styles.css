@@ -1255,8 +1255,16 @@ background: var(--IRIS, #4D5AE5);
 padding-top: 40px;
 padding-left: 32px;
     }
-    .text-card1 p,.text-card2 p,.text-card3 p,.text-card4taxi p, .text-card4phone p, .text-card4smile p, .text-card5face p,.text-card5fruit p,.text-card5coffee p {
+    div .text-card1,div .text-card2,div .text-card3, div .text-card4taxi, div .text-card4smile, div .text-card4phone, div .text-card5coffee, div .text-card5face, div .text-card5fruit {
         width: 296px;
+        height: 96px;
+        display: block;
+        padding-bottom: 284px;
+        box-sizing: border-box;
+        position: relative;
+        margin-top: 0;
+    }
+    .text-card1 p,.text-card2 p,.text-card3 p,.text-card4taxi p, .text-card4phone p, .text-card4smile p, .text-card5face p,.text-card5fruit p,.text-card5coffee p {
         color: var(--CLOUD, #F4F4FD);
 /* Body */
 font-family: Roboto;
@@ -1265,11 +1273,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
-margin-bottom: 162px;
-margin-left: 30px;
-margin-right: 30px;
 display: block;
-width: 360px;
     }
  .card3 {
         margin-left: 24px;
