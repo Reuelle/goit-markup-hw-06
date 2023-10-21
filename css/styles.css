@@ -322,8 +322,8 @@ line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
 }
  textarea[id="comment"]{
-    padding: 5px;
-    margin-left: 40px;
+    padding: 8px 8px 8px 16px;
+    margin-left: 8px;
     margin-top: 4px;
     width: 360px;
 height: 120px;
