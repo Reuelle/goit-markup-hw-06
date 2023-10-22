@@ -148,13 +148,17 @@ cursor: pointer;
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
-}
+ }
 .connect-3:hover, .connect-3:focus  {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.connect-1::after,.connect-2::after, .connect-3::after {
+.active {
+    color: var(--OCEAN);
+    
+}
+.active::after,.active::after, .active::after {
     content: " ";
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
