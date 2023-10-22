@@ -964,6 +964,7 @@ letter-spacing: 0.32px;
         box-sizing: border-box;
         justify-content: space-between;
         cursor: pointer;
+        gap: 16px;
     }
     footer > .footer-instagram {
         margin-left: 540px;
@@ -979,7 +980,7 @@ letter-spacing: 0.32px;
         cursor: pointer;
     }
     form[id="email-sub"]{
-        margin-left: 129px;
+        margin-left: 62px;
         width: 264px;
         height: 40px;
         border-radius: 4px;
