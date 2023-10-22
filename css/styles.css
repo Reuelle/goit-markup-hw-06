@@ -381,7 +381,7 @@ letter-spacing: 0.48px;
     letter-spacing: 0.48px;
     text-decoration-line: underline;
 }
-.button {
+button[type="submit"] {
     justify-content: center;
     margin-top: 24px;
     box-sizing: border-box;
@@ -1017,11 +1017,14 @@ letter-spacing: 0.48px;
     .icon img {
         cursor: pointer;
     }
-    .subscribed-button {
-        width: 175px;
-        height: 40px;
-padding: 8px 64px 8px 22px;
+    .subscribed-button{
+width: 175px;
+height: 40px;
+padding: 8px 74px 8px 22px;
 border-radius: 4px;
+display: inline-flex;
+    }
+    .subscribed-button button{
 background: var(--IRIS, #4D5AE5);
 color: var(--WHITE, #FFF);
 /* Button Text */
@@ -1039,7 +1042,6 @@ background-position: 117px 8px;
 border: none;
 cursor: pointer;
 display: inline-flex;
-
     }
     footer > a {
         text-decoration: none;
