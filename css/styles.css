@@ -139,19 +139,17 @@ cursor: pointer;
 .target > a {
  text-decoration: none;
 }
-.contact a:hover  {
+.headlist .connect-1:hover,.headlist .connect-1:active  {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.contact a .connect-1 {
+.headlist .connect-2:hover,.headlist .connect-2:active  {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.active::after {
-    content: "";
-    display: block;
+.headlist .connect-3:hover,.headlist .connect-3:active  {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
