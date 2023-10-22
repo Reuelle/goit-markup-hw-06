@@ -1021,12 +1021,14 @@ letter-spacing: 0.48px;
 width: 175px;
 height: 40px;
 border-radius: 4px;
-background-color: tomato;
 display: inline-flex;
 box-sizing: content-box;
 margin-left: 24px;
+padding: 0;
+justify-content: center;
+align-items: center;
     }
-    .subscribed-button .submit{
+    .subscribed-button button{
         width: 77px;
         height: 24px;
 background: var(--IRIS, #4D5AE5);
@@ -1044,9 +1046,11 @@ background-size: 24px 24px;
 background-position: 117px 8px;
 border: none;
 cursor: pointer;
-box-sizing: border-box;
+box-sizing: content-box;
 display: inline-flex;
-padding-bottom: 8px;
+padding: 8px 77px 8px 22px;
+margin-right: 98px;
+margin-bottom: 23px;
     }
     footer > a {
         text-decoration: none;
