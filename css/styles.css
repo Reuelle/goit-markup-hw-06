@@ -371,7 +371,15 @@ line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
 }
  .policy {
-    color: #4D5AE5;
+    color: var(--IRIS, #4D5AE5);
+    /* Link Text */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
 }
 .button {
     justify-content: center;
