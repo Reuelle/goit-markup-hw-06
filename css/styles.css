@@ -139,21 +139,30 @@ cursor: pointer;
 .target > a {
  text-decoration: none;
 }
- .connect-1:hover, .connect-1:active  {
+ .connect-1:hover, .connect-1:focus  {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
 }
- .connect-2:hover, .connect-2:active  {
+ .connect-2:hover, .connect-2:focus  {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
 }
-.connect-3:hover, .connect-3:active  {
+.connect-3:hover, .connect-3:focus  {
     color: var(--OCEAN);
     border-bottom: 3px solid blue;
     height: 40px;
 }
+.connect-1::after,.connect-2::after, .connect-3::after {
+    content: " ";
+    color: var(--OCEAN);
+    border-bottom: 3px solid blue;
+    height: 40px;
+    display: block;
+    position: relative;
+}
+
 .contact-info > ul{
     width: 345px;
     margin-left: 332px;
