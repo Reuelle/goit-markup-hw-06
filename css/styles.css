@@ -1020,11 +1020,15 @@ letter-spacing: 0.48px;
     .subscribed-button{
 width: 175px;
 height: 40px;
-padding: 8px 74px 8px 22px;
 border-radius: 4px;
+background-color: tomato;
 display: inline-flex;
+box-sizing: content-box;
+margin-left: 24px;
     }
-    .subscribed-button button{
+    .subscribed-button .submit{
+        width: 77px;
+        height: 24px;
 background: var(--IRIS, #4D5AE5);
 color: var(--WHITE, #FFF);
 /* Button Text */
@@ -1034,14 +1038,15 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
-margin-left: 28px;
 background-image: url("../images/airplane3.svg");
 background-repeat: no-repeat;
 background-size: 24px 24px;
 background-position: 117px 8px;
 border: none;
 cursor: pointer;
+box-sizing: border-box;
 display: inline-flex;
+padding-bottom: 8px;
     }
     footer > a {
         text-decoration: none;
