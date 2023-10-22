@@ -974,7 +974,6 @@ letter-spacing: 0.32px;
         margin-left: 120px;
         box-sizing: border-box;
         justify-content: space-between;
-        cursor: pointer;
         gap: 16px;
     }
     footer > .footer-instagram {
