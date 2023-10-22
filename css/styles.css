@@ -265,7 +265,7 @@ font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
 }
-input[id="text"] {
+input[name="Email"] {
     background-image: url("../images/phone-black-18dp1.svg");
     margin-left: 8px;
     margin-top: 4px;
@@ -293,7 +293,7 @@ font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
 }
-input[type="email"] {
+input[name="email2"] {
     margin-top: 4px;
     background-image: url("../images/email-black-18dp1.svg");
     padding:  5px 5px 5px 30px;
@@ -979,7 +979,7 @@ letter-spacing: 0.32px;
         margin-left: 16px;
         cursor: pointer;
     }
-    form[id="email-sub"]{
+    form[id="email1"]{
         margin-left: 62px;
         width: 264px;
         height: 40px;
@@ -989,7 +989,7 @@ letter-spacing: 0.32px;
 flex-shrink: 0;
 display: inline-flex;
     }
-    input[id="email"]{
+    input[id="email1"]{
         margin-left: 0;
         width: 262px;
         height: 30px;
@@ -1002,7 +1002,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: var(--WHITE, #FFF);
     }
     input::placeholder {
-        color: var(--WHITE, #FFF);
+color: var(--WHITE, #FFF);
 font-family: Roboto;
 font-size: 12px;
 font-style: normal;
