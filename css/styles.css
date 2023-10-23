@@ -977,13 +977,7 @@ letter-spacing: 0.32px;
         justify-content: space-between;
         gap: 16px;
     }
-     .footer-instagram {
-        cursor: pointer;
-    }
-    .footer-twitter {
-        cursor: pointer;
-    }
-     .footer-facebook {
+     .footer-instagram, .footer-twitter, .footer-facebook, .footer-linkedin {
         cursor: pointer;
     }
     form[id="email1"]{
