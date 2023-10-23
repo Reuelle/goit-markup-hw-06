@@ -977,17 +977,13 @@ letter-spacing: 0.32px;
         justify-content: space-between;
         gap: 16px;
     }
-    footer > .footer-instagram {
-        margin-left: 540px;
-        margin-top: 16px;
+     .footer-instagram {
         cursor: pointer;
     }
-    footer > .footer-twitter {
-        margin-left: 16px;
+    .footer-twitter {
         cursor: pointer;
     }
-    footer > .footer-facebook {
-        margin-left: 16px;
+     .footer-facebook {
         cursor: pointer;
     }
     form[id="email1"]{
